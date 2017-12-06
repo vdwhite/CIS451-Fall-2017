@@ -1,7 +1,7 @@
 <!--
 Name: Guangyun Hou
 Class: CIS 451, Fall 2017
-Final
+Final 
 -->
 <?php
 include('connectionData.txt');
@@ -92,8 +92,8 @@ if(!mysqli_stmt_prepare($prep_stmt, $seller_query)){
 		print "$row[name]";	
 		echo '</div>';	
 	  }
+	echo '<h3>Code of this page: <a href="http://ix.cs.uoregon.edu/~ghou/final_project/code/final_result_seller_hou.txt">Code</a></h3>';
 	echo '</div>';
-	 
 	mysqli_free_result($result);
 	mysqli_close($conn);
 	?>

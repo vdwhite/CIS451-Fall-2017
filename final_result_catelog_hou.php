@@ -1,7 +1,7 @@
 <!--
 Name: Guangyun Hou
 Class: CIS 451, Fall 2017
-Final
+Final 
 -->
 <?php
 
@@ -89,6 +89,7 @@ if(!mysqli_stmt_prepare($prep_stmt, $catelog_seller_query)){
 	mysqli_free_result($result);
 	mysqli_close($conn);
 	?>
+	<h3>Code of this page: <a href="http://ix.cs.uoregon.edu/~ghou/final_project/code/final_result_catelog_hou.txt">Code</a></h3>
 	</div>
 </body>
 </html>

@@ -1,7 +1,7 @@
 <!--
 Name: Guangyun Hou
 Class: CIS 451, Fall 2017
-Final
+Final 
 -->
 <?php
 
@@ -43,7 +43,7 @@ or die('Error connecting to MySQL server.');
 			mysqli_stmt_execute($prep_stmt);
 			$result = mysqli_stmt_get_result($prep_stmt);
 		}?>
-	<div class="container">  
+	<div class="container">
 		<h1>Result:</h1>
 
 		<?php
@@ -78,6 +78,7 @@ or die('Error connecting to MySQL server.');
 		mysqli_free_result($result);
 		mysqli_close($conn);
 		?>
+		<h3>Code of this page: <a href="http://ix.cs.uoregon.edu/~ghou/final_project/code/final_result_price_hou.txt">Code</a></h3>
 	</div>
 </body>
 </html>

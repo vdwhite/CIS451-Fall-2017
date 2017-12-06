@@ -1,7 +1,7 @@
 <!--
 Name: Guangyun Hou
 Class: CIS 451, Fall 2017
-HW 4 	
+Final 
 -->
 <?php
 include('connectionData.txt');
@@ -19,8 +19,12 @@ or die('Error connecting to MySQL server.');
 
 
 <div class="container">
-	<h1>Final project by Guangyun Hou for CIS 451, A Tiny Arcade Parts Selling System</h1>
+	<h1>Final project by Guangyun Hou for CIS 451</h1>
+	<h2>A Tiny Arcade Parts Selling System</h2>
 	<h2>Connecting to FinalProject using MySQL/PHP</h2>
+	<h5>Github: https://github.com/vdwhite/CIS451-Fall-2017</h5>
+	<h5>Connection data can be seen here: <a href="http://ix.cs.uoregon.edu/~ghou/final_project/connectionData.txt">Connection Data</a></h5>
+	<h5>Code of this page: <a href="http://ix.cs.uoregon.edu/~ghou/final_project/code/final_menu_hou.txt">Code</a></h5>
 	<p>Choose a catelog to see who's selling those items:</p>
 	<form action="final_result_catelog_hou.php" method="POST"> 
 	<?php
